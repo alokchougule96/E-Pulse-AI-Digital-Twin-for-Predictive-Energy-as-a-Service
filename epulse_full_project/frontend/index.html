@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Pulse AI Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>E-Pulse AI Powered Energy Digital Twin</h1>
+
+<div class="input-box">
+    <input id="temp" placeholder="Temperature (°C)">
+    <input id="hour" placeholder="Hour (0-23)">
+    <input id="load" placeholder="Equipment Load (W)">
+    <button onclick="predict()">Predict Energy</button>
+</div>
+
+<h2 id="result"></h2>
+<h2 id="opt"></h2>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
